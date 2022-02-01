@@ -12,6 +12,6 @@ public class DefaultControllers {
 
 	@GetMapping
 	public ResponseEntity<String> getHome(){
-		return new ResponseEntity<>("Wellcome to home page 2, I am Mizanur Rahman, Hi Rakibul Islam", HttpStatus.OK);
+		return new ResponseEntity<>("Wellcome to home page 2, I am Mizanur Rahman, Hi Rakibul Islam and Golam Mostofa", HttpStatus.OK);
 	}
 }
