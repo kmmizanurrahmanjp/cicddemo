@@ -12,6 +12,6 @@ public class DefaultControllers {
 
 	@GetMapping
 	public ResponseEntity<String> getHome(){
-		return new ResponseEntity<>("Wellcome to home page", HttpStatus.OK);
+		return new ResponseEntity<>("Wellcome to home page 2", HttpStatus.OK);
 	}
 }
