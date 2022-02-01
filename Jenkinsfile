@@ -1,5 +1,5 @@
 node{
   stage('SCM checkout'){
-    git 'https://github.com/kmmizanurrahmanjp/cicddemo'
+    git branch: 'main', url: 'https://github.com/kmmizanurrahmanjp/cicddemo.git'
   }
 }
